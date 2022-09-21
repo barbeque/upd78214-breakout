@@ -731,6 +731,11 @@
       (net 123 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 809bd971-2cfe-45f8-be00-1ad5bd4dd2a3))
     (pad "P1" thru_hole circle locked (at -6.02 0 270) (size 3.346 3.346) (drill 2.33) (layers *.Cu *.Mask) (tstamp b6d78568-9e38-4c9f-88f9-695bb965e0e0))
     (pad "P2" thru_hole circle locked (at 6.02 0 270) (size 3.346 3.346) (drill 2.33) (layers *.Cu *.Mask) (tstamp bfd6b0b4-4170-4569-88e6-7ad866cf0e2d))
+    (model "${KIPRJMOD}/USB-B1HSB6/USB-B1HSB6.step"
+      (offset (xyz 0 -2 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (gr_poly
