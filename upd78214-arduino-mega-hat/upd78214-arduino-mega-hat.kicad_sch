@@ -2139,6 +2139,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NEC:upd78214-64p-qfp"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3843,6 +3993,16 @@
 		)
 		(uuid "24a8295f-762d-4ded-a00f-7f1834b08ef5")
 	)
+	(text "~{OE} on UV variant"
+		(exclude_from_sim no)
+		(at 174.625 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2aa5a4a6-35cc-43e3-9d26-6b4dce0cb523")
+	)
 	(text "for both of these:\n30pF 12MHz, 100pF 4MHz"
 		(exclude_from_sim no)
 		(at 224.79 33.655 0)
@@ -3852,6 +4012,16 @@
 			)
 		)
 		(uuid "3a6170a6-c1ae-4463-9e47-7dcf14e32fdb")
+	)
+	(text "~{CE} on UV variant"
+		(exclude_from_sim no)
+		(at 174.625 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "748b57c7-ba7e-4bb3-ab81-3f74a1d27222")
 	)
 	(text "PROM read mode needs +12.5V on NMI, ~{RESET} low, ~{CE} and ~{OE} low"
 		(exclude_from_sim no)
@@ -3945,7 +4115,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 77.47) (xy 74.93 77.47)
+			(xy 62.23 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3962,6 +4132,16 @@
 			(type solid)
 		)
 		(uuid "0652781e-53d8-47f0-b2a2-8f05e7e95976")
+	)
+	(wire
+		(pts
+			(xy 120.65 79.375) (xy 119.38 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07831a28-9dc1-4138-bedc-cdc137694fee")
 	)
 	(wire
 		(pts
@@ -4012,6 +4192,16 @@
 			(type solid)
 		)
 		(uuid "10a001fd-550c-4180-b3e7-b52dc39e5aa8")
+	)
+	(wire
+		(pts
+			(xy 119.38 79.375) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10db9ea7-0a4d-48e2-9998-2cb590b9dfcd")
 	)
 	(wire
 		(pts
@@ -4132,6 +4322,16 @@
 			(type solid)
 		)
 		(uuid "26d78356-26a3-485e-b0af-424b53a233d6")
+	)
+	(wire
+		(pts
+			(xy 130.81 76.835) (xy 139.065 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b5dbbf-9e5a-42dd-bcb8-a3ebd5e93846")
 	)
 	(wire
 		(pts
@@ -4312,6 +4512,16 @@
 			(type solid)
 		)
 		(uuid "486ca832-85f4-4989-b0f4-569faf9be534")
+	)
+	(wire
+		(pts
+			(xy 130.81 79.375) (xy 139.065 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a66a07a-4797-4659-9d6e-dbec2dad86fb")
 	)
 	(wire
 		(pts
@@ -4582,6 +4792,16 @@
 			(type default)
 		)
 		(uuid "7613d978-f41d-459d-9070-183850485eee")
+	)
+	(wire
+		(pts
+			(xy 120.65 74.93) (xy 120.65 76.835)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7a4730a6-0c30-42cd-949c-65371f4325dc")
 	)
 	(wire
 		(pts
@@ -5065,7 +5285,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 74.93) (xy 74.93 74.93)
+			(xy 62.23 74.93) (xy 120.65 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7535,6 +7755,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 125.73 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8a87138-8ccb-4264-a6e2-76e67ae29993")
+		(property "Reference" "JP1"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 125.73 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 125.73 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 125.73 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1f68a38-6b7d-407b-b3e6-56f78e9b82b9")
+		)
+		(pin "2"
+			(uuid "c23821fe-d4ad-4467-a423-728090569f0f")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NEC:upd78214-64p-qfp")
 		(at 150.495 24.765 0)
 		(mirror y)
@@ -7795,6 +8092,84 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 125.73 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1293ac7-b830-4a75-ab77-9f56d5a8a14c")
+		(property "Reference" "JP2"
+			(at 125.73 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 125.73 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 125.73 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
+			(at 125.73 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "401bb011-0d6f-4a12-81e5-8dfcefb621ef")
+		)
+		(pin "2"
+			(uuid "18c2a965-b953-41fb-9e0f-e6348b051d13")
+		)
+		(instances
+			(project "upd78214-arduino-mega-hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
