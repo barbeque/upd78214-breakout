@@ -1,2 +1,3 @@
+ - [ ] Programming mode - what is it, how do we do it, what pins are used?
  - [ ] Get minimal set of programming headers down
  - [ ] Strap up /OE with a resistor to make it harder to accidentally wipe the NEC ROM

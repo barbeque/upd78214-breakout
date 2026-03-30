@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Toshiba")(type "KiCad")(uri "/Users/mike/Code/upd78214-breakout/Toshiba.kicad_sym")(options "")(descr ""))
+  (lib (name "NEC")(type "KiCad")(uri "/Users/mike/Code/upd78214-breakout/NEC.kicad_sym")(options "")(descr ""))
+)
