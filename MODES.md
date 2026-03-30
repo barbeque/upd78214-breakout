@@ -3,7 +3,7 @@ This applies only to the 64-pin QFP variant.
 It is not confirmed if the programming mode even exists on the non-P 78K/2. Use at your own risk.
 
 | Pin | Our normal function | PROM normal function | Programming function |
-|-----|-----------------|----------------------|
+|-----|-----------------|----------------------|--|
 | 1   | ~RD | ~RD | ~OE |
 | 2   | A19 | A19 | pull low w/ 10k |
 | 3   | A18 | A18 | pull low w/ 10k |
