@@ -3853,6 +3853,16 @@
 		)
 		(uuid "3a6170a6-c1ae-4463-9e47-7dcf14e32fdb")
 	)
+	(text "PROM read mode needs +12.5V on NMI, ~{RESET} low, ~{CE} and ~{OE} low"
+		(exclude_from_sim no)
+		(at 226.06 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c1c5a1f-6687-45c0-abb5-1d5d79bf92ee")
+	)
 	(text "Output for address latch a[0..7] to external ROM"
 		(exclude_from_sim no)
 		(at 222.25 43.815 0)
