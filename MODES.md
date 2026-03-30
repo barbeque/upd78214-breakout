@@ -72,3 +72,5 @@ It is not confirmed if the programming mode even exists on the non-P 78K/2. Use 
 Main points: 
  - A9 changes pins entirely
  - A/D pins become strictly A pins, D pins appear on other side of package
+ - Vpp: Power supply for writing programs. When the CE goes low while the VPP is 12.5 V and the OE is high, the data on pins D0 to D7 is written into the internal PROM at the address specified by pins A0 to A14.
+ - NMI: Input used for setting the µ PD78**P**214 to PROM programming mode. When a voltage of 12.5 V is applied to this pin and the RESET pin goes low, the µPD78P214 enters PROM programming mode.
