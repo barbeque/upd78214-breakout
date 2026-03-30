@@ -1,4 +1,6 @@
  - [ ] Programming mode - what is it, how do we do it, what pins are used?
+ - [ ] Control ~RESET with MCU
+ - [ ] Control NMI with MCU (+12V transistor?)
  - [ ] Is there a "verify" mode?
  - [ ] PG-1500 PROM programmer, only for PROM?
  - [ ] Get minimal set of programming headers down
