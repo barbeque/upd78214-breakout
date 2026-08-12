@@ -1,0 +1,9 @@
+Designator,Footprint,Quantity,Comment,JLCPCB Part #
+"C1, C2",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,30pF,C107114
+J1,PinHeader_1x08_P2.54mm_Vertical,1,Pin Header,C32713274
+J2,PinHeader_1x10_P2.54mm_Vertical,1,Pin Header,C57369
+"J3, J5",PinHeader_1x08_P2.54mm_Vertical,2,Pin Header,C32713274
+J4,PinHeader_1x08_P2.54mm_Vertical,1,Pin Header,C32713274
+J6,PinHeader_1x08_P2.54mm_Vertical,1,Pin Header,C32713274
+J7,PinHeader_2x18_P2.54mm_Vertical,1,Pin Header,C42372526
+Y1,Crystal_HC49-U_Vertical,1,12MHz,C16369
