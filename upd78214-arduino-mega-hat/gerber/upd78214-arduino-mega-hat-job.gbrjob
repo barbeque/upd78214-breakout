@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.7"
     },
-    "CreationDate": "2026-10-14T08:27:38+09:00"
+    "CreationDate": "2026-10-14T12:29:41+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -45,6 +45,16 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "upd78214-arduino-mega-hat-In1_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "upd78214-arduino-mega-hat-In2_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "upd78214-arduino-mega-hat-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
@@ -57,6 +67,21 @@
     {
       "Path": "upd78214-arduino-mega-hat-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "upd78214-arduino-mega-hat-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "upd78214-arduino-mega-hat-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "upd78214-arduino-mega-hat-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
   ],
