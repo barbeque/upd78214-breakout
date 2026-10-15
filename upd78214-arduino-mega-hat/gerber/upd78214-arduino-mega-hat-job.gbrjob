@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.5"
+      "Version": "10.0.7"
     },
-    "CreationDate": "2026-08-12T23:07:31+09:00"
+    "CreationDate": "2026-10-14T12:29:41+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -40,37 +40,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "upd78214-arduino-mega-hat-F_Cu.gtl",
+      "Path": "upd78214-arduino-mega-hat-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "upd78214-arduino-mega-hat-B_Cu.gbl",
+      "Path": "upd78214-arduino-mega-hat-In1_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "upd78214-arduino-mega-hat-In2_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "upd78214-arduino-mega-hat-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "upd78214-arduino-mega-hat-F_Silkscreen.gto",
+      "Path": "upd78214-arduino-mega-hat-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "upd78214-arduino-mega-hat-B_Silkscreen.gbo",
+      "Path": "upd78214-arduino-mega-hat-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "upd78214-arduino-mega-hat-F_Mask.gts",
+      "Path": "upd78214-arduino-mega-hat-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "upd78214-arduino-mega-hat-B_Mask.gbs",
+      "Path": "upd78214-arduino-mega-hat-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "upd78214-arduino-mega-hat-Edge_Cuts.gm1",
+      "Path": "upd78214-arduino-mega-hat-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
